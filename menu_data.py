@@ -6,9 +6,9 @@ import bcrypt
 def connect_db():
     return psycopg2.connect(
         host="localhost",
-        database="works",
-        user="bruna_kali",
-        password="bruna@141521_"
+        database="nome do banco de dados",
+        user="nome do usuario",
+        password="senha do usuario"
     )
 
 def create_table(conn):
