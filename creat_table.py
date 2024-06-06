@@ -4,7 +4,7 @@ from psycopg2 import sql
 def connect_db():
     return psycopg2.connect(
         host="localhost",
-        database="works",
+        database="nome do banco de dados",
         user="nome do ususario",
         password="senha do usuario"
     )
