@@ -5,8 +5,8 @@ def connect_db():
     return psycopg2.connect(
         host="localhost",
         database="works",
-        user="bruna_kali",
-        password="bruna@141521_"
+        user="nome do ususario",
+        password="senha do usuario"
     )
 
 def create_table(conn):
